@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="network_error">Kesalahan jaringan…</string>
+    <string name="network_error_message">Internet tidak tersedia, sambungkan kembali jaringan dan coba lagi.</string>
+
+    <string name="ok">Oke</string>
+
+
+    <string name="do_you_realy_want_to_buy_premium_or_watch_video_to_activate_for_one_time">Apakah Anda benar-benar ingin Membeli Premium Atau Menonton Video untuk Mengaktifkan Sekali?</string>
+    <string name="watchad">Tonton Iklan</string>
+    <string name="buy_premium">Beli Premium</string>
+    <string name="pleasewait">"Tunggu sebentar … "</string>
+    <string name="logindone">Gabung Selesai, Coba Hubungkan VPN Sekarang</string>
+    <string name="vpncon">VPN Terhubung</string>
+    <string name="errorconnecting">Kesalahan Menghubungkan, Pastikan Anda Telah Memilih Negara Dan Diberikan Izin VPN</string>
+    <string name="besserver">Server Terbaik</string>
+    <string name="billunavaliable">TAGIHAN TIDAK TERSEDIA</string>
+    <string name="developererrer">KESALAHAN PENGEMBANG</string>
+    <string name="featurenotsupp">FITUR TIDAK DIDUKUNG</string>
+    <string name="alreadowned">BARANG SUDAH DIMILIKI</string>
+    <string name="servicediss">LAYANAN DIHUBUNGKAN</string>
+    <string name="servicetime">WAKTU LAYANAN</string>
+    <string name="itemunaval">BARANG TIDAK TERSEDIA</string>
+</resources>

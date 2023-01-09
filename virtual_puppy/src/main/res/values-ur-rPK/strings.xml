@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="network_error">نیٹ ورک کی خرابی…</string>
+    <string name="network_error_message">انٹرنیٹ دستیاب نہیں ہے، نیٹ ورک کو دوبارہ جوڑیں اور دوبارہ کوشش کریں۔</string>
+
+    <string name="ok">ٹھیک ہے</string>
+
+
+    <string name="do_you_realy_want_to_buy_premium_or_watch_video_to_activate_for_one_time">کیا آپ واقعی پریمیم خریدنا چاہتے ہیں یا ایک بار چالو کرنے کے لیے ویڈیو دیکھنا چاہتے ہیں؟</string>
+    <string name="watchad">اشتہار دیکھیں</string>
+    <string name="buy_premium">پریمیم خریدیں۔</string>
+    <string name="pleasewait">"برائے مہربانی انتظار کریں … "</string>
+    <string name="logindone">لاگ ان ہو گیا، ابھی VPN کو جوڑنے کی کوشش کریں۔</string>
+    <string name="vpncon">VPN منسلک ہے۔</string>
+    <string name="errorconnecting">رابطہ کرنے میں خرابی، یقینی بنائیں کہ آپ نے ایک ملک منتخب کیا ہے اور VPN کی اجازت دی ہے۔</string>
+    <string name="besserver">بہترین سرور</string>
+    <string name="billunavaliable">بلنگ دستیاب نہیں ہے۔</string>
+    <string name="developererrer">ڈویلپر کی خرابی۔</string>
+    <string name="featurenotsupp">خصوصیت تعاون یافتہ نہیں ہے۔</string>
+    <string name="alreadowned">آئٹم پہلے سے ہی ملکیت میں ہے۔</string>
+    <string name="servicediss">سروس منقطع ہو گئی۔</string>
+    <string name="servicetime">سروس ٹائم آؤٹ</string>
+    <string name="itemunaval">آئٹم دستیاب نہیں ہے۔</string>
+</resources>

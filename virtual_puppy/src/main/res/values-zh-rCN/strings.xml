@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_error">网络错误…</string>
+    <string name="network_error_message">Internet 不可用，重新连接网络并重试。</string>
+
+</resources>
