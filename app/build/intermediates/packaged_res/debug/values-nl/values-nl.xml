@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alreadowned">ARTIKEL REEDS IN BEZIT</string>
+    <string name="besserver">Beste server</string>
+    <string name="billunavaliable">FACTURERING NIET BESCHIKBAAR</string>
+    <string name="buy_premium">Koop Premium</string>
+    <string name="developererrer">ONTWIKKELAAR FOUT</string>
+    <string name="do_you_realy_want_to_buy_premium_or_watch_video_to_activate_for_one_time">Wilt u echt Premium kopen of een video bekijken om eenmalig te activeren?</string>
+    <string name="errorconnecting">Fout bij verbinding maken, zorg ervoor dat u een land heeft geselecteerd en VPN-toestemming hebt gegeven</string>
+    <string name="featurenotsupp">FUNCTIE NIET ONDERSTEUND</string>
+    <string name="itemunaval">ARTIKEL NIET BESCHIKBAAR</string>
+    <string name="logindone">Inloggen Klaar, probeer nu verbinding te maken met VPN</string>
+    <string name="network_error">Netwerkfout…</string>
+    <string name="network_error_message">Internet is niet beschikbaar, sluit het netwerk opnieuw aan en probeer het opnieuw.</string>
+    <string name="ok">oke</string>
+    <string name="pleasewait">"Wacht alsjeblieft … "</string>
+    <string name="servicediss">SERVICE ONTKOPPELD</string>
+    <string name="servicetime">SERVICE TIME-OUT</string>
+    <string name="vpncon">VPN verbonden</string>
+    <string name="watchad">Advertentie bekijken</string>
+</resources>

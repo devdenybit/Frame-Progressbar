@@ -1,0 +1,274 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.test.test"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\div79\Desktop\New Module\VPN_Module\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\div79\Desktop\New Module\VPN_Module\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[:virtual_puppy] C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-67
+11-->[:virtual_puppy] C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[:virtual_puppy] C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-79
+12-->[:virtual_puppy] C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-76
+13    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+13-->[:virtual_puppy] C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-79
+13-->[:virtual_puppy] C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-76
+14    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+14-->[:virtual_puppy] C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-76
+14-->[:virtual_puppy] C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:22-73
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->[:virtual_puppy] C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-76
+15-->[:virtual_puppy] C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:22-73
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[:virtual_puppy] C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:5-68
+16-->[:virtual_puppy] C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:22-65
+17    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+17-->[:virtual_puppy] C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:5-77
+17-->[:virtual_puppy] C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:22-74
+18    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+18-->[:virtual_puppy] C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:5-81
+18-->[:virtual_puppy] C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:22-78
+19    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+19-->[:virtual_puppy] C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:5-95
+19-->[:virtual_puppy] C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:22-92
+20
+21    <application
+21-->C:\Users\div79\Desktop\New Module\VPN_Module\app\src\main\AndroidManifest.xml:5:5-29:19
+22        android:name="com.test.test.MyApplication"
+22-->C:\Users\div79\Desktop\New Module\VPN_Module\app\src\main\AndroidManifest.xml:6:9-38
+23        android:allowBackup="true"
+23-->C:\Users\div79\Desktop\New Module\VPN_Module\app\src\main\AndroidManifest.xml:7:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.8.0] C:\Users\div79\.gradle\caches\transforms-3\7c39e07860e651dde17cb56d96162763\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:icon="@drawable/ic_appicon"
+26-->C:\Users\div79\Desktop\New Module\VPN_Module\app\src\main\AndroidManifest.xml:8:9-44
+27        android:label="@string/app_name"
+27-->C:\Users\div79\Desktop\New Module\VPN_Module\app\src\main\AndroidManifest.xml:9:9-41
+28        android:largeHeap="true"
+28-->C:\Users\div79\Desktop\New Module\VPN_Module\app\src\main\AndroidManifest.xml:10:9-33
+29        android:networkSecurityConfig="@xml/sdk_captive_portal_network_security"
+29-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\70a67237086c82f41671618052494bf3\transformed\jetified-sdk-core-3.6.3\AndroidManifest.xml:16:9-81
+30        android:roundIcon="@drawable/ic_appicon"
+30-->C:\Users\div79\Desktop\New Module\VPN_Module\app\src\main\AndroidManifest.xml:11:9-49
+31        android:supportsRtl="true"
+31-->C:\Users\div79\Desktop\New Module\VPN_Module\app\src\main\AndroidManifest.xml:12:9-35
+32        android:testOnly="true"
+33        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+33-->C:\Users\div79\Desktop\New Module\VPN_Module\app\src\main\AndroidManifest.xml:13:9-65
+34        <activity
+34-->C:\Users\div79\Desktop\New Module\VPN_Module\app\src\main\AndroidManifest.xml:17:9-24:20
+35            android:name="com.test.test.spl"
+35-->C:\Users\div79\Desktop\New Module\VPN_Module\app\src\main\AndroidManifest.xml:18:13-45
+36            android:exported="true" >
+36-->C:\Users\div79\Desktop\New Module\VPN_Module\app\src\main\AndroidManifest.xml:19:13-36
+37            <intent-filter>
+37-->C:\Users\div79\Desktop\New Module\VPN_Module\app\src\main\AndroidManifest.xml:20:13-23:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\div79\Desktop\New Module\VPN_Module\app\src\main\AndroidManifest.xml:21:17-69
+38-->C:\Users\div79\Desktop\New Module\VPN_Module\app\src\main\AndroidManifest.xml:21:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\div79\Desktop\New Module\VPN_Module\app\src\main\AndroidManifest.xml:22:17-77
+40-->C:\Users\div79\Desktop\New Module\VPN_Module\app\src\main\AndroidManifest.xml:22:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->C:\Users\div79\Desktop\New Module\VPN_Module\app\src\main\AndroidManifest.xml:26:9-27:39
+44            android:name="com.test.test.spl2"
+44-->C:\Users\div79\Desktop\New Module\VPN_Module\app\src\main\AndroidManifest.xml:26:19-39
+45            android:exported="false" />
+45-->C:\Users\div79\Desktop\New Module\VPN_Module\app\src\main\AndroidManifest.xml:27:13-37
+46
+47        <meta-data
+47-->[com.github.AnchorFreePartner.hydra-sdk-android:openvpn:3.4.17] C:\Users\div79\.gradle\caches\transforms-3\e7f94e917daac75c020ffb2a77766c91\transformed\jetified-openvpn-3.4.17\AndroidManifest.xml:12:9-14:58
+48            android:name="com.anchorfree.vpnsdk.vpn_config.openvpn"
+48-->[com.github.AnchorFreePartner.hydra-sdk-android:openvpn:3.4.17] C:\Users\div79\.gradle\caches\transforms-3\e7f94e917daac75c020ffb2a77766c91\transformed\jetified-openvpn-3.4.17\AndroidManifest.xml:13:13-68
+49            android:resource="@raw/openvpn_vpn_config" />
+49-->[com.github.AnchorFreePartner.hydra-sdk-android:openvpn:3.4.17] C:\Users\div79\.gradle\caches\transforms-3\e7f94e917daac75c020ffb2a77766c91\transformed\jetified-openvpn-3.4.17\AndroidManifest.xml:14:13-55
+50        <meta-data
+50-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\87801f564eb221856423a2246a17fac9\transformed\jetified-sdk-3.6.3\AndroidManifest.xml:10:9-12:63
+51            android:name="com.anchorfree.sdk.transports"
+51-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\87801f564eb221856423a2246a17fac9\transformed\jetified-sdk-3.6.3\AndroidManifest.xml:11:13-57
+52            android:resource="@raw/hydra_transports_config" />
+52-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\87801f564eb221856423a2246a17fac9\transformed\jetified-sdk-3.6.3\AndroidManifest.xml:12:13-60
+53        <meta-data
+53-->[com.github.AnchorFreePartner.hydra-sdk-android:hydra:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\9ac3f90d0d2227333a2b338fdde29674\transformed\jetified-hydra-3.6.3\AndroidManifest.xml:10:9-12:56
+54            android:name="com.anchorfree.vpnsdk.vpn_config.hydra"
+54-->[com.github.AnchorFreePartner.hydra-sdk-android:hydra:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\9ac3f90d0d2227333a2b338fdde29674\transformed\jetified-hydra-3.6.3\AndroidManifest.xml:11:13-66
+55            android:resource="@raw/hydra_vpn_config" />
+55-->[com.github.AnchorFreePartner.hydra-sdk-android:hydra:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\9ac3f90d0d2227333a2b338fdde29674\transformed\jetified-hydra-3.6.3\AndroidManifest.xml:12:13-53
+56
+57        <provider
+57-->[com.github.AnchorFreePartner.hydra-sdk-android:hydra:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\9ac3f90d0d2227333a2b338fdde29674\transformed\jetified-hydra-3.6.3\AndroidManifest.xml:14:9-18:37
+58            android:name="com.anchorfree.sdk.HydraTransportInitProvider"
+58-->[com.github.AnchorFreePartner.hydra-sdk-android:hydra:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\9ac3f90d0d2227333a2b338fdde29674\transformed\jetified-hydra-3.6.3\AndroidManifest.xml:15:13-73
+59            android:authorities="com.test.test.sdk.transport.hydra"
+59-->[com.github.AnchorFreePartner.hydra-sdk-android:hydra:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\9ac3f90d0d2227333a2b338fdde29674\transformed\jetified-hydra-3.6.3\AndroidManifest.xml:16:13-71
+60            android:exported="false"
+60-->[com.github.AnchorFreePartner.hydra-sdk-android:hydra:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\9ac3f90d0d2227333a2b338fdde29674\transformed\jetified-hydra-3.6.3\AndroidManifest.xml:17:13-37
+61            android:initOrder="1" />
+61-->[com.github.AnchorFreePartner.hydra-sdk-android:hydra:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\9ac3f90d0d2227333a2b338fdde29674\transformed\jetified-hydra-3.6.3\AndroidManifest.xml:18:13-34
+62        <provider
+62-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\70a67237086c82f41671618052494bf3\transformed\jetified-sdk-core-3.6.3\AndroidManifest.xml:18:9-22:37
+63            android:name="com.anchorfree.sdk.DBProvider"
+63-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\70a67237086c82f41671618052494bf3\transformed\jetified-sdk-core-3.6.3\AndroidManifest.xml:19:13-57
+64            android:authorities="com.test.test.hydra.sdk.db.provider"
+64-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\70a67237086c82f41671618052494bf3\transformed\jetified-sdk-core-3.6.3\AndroidManifest.xml:20:13-73
+65            android:exported="false"
+65-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\70a67237086c82f41671618052494bf3\transformed\jetified-sdk-core-3.6.3\AndroidManifest.xml:21:13-37
+66            android:initOrder="1" />
+66-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\70a67237086c82f41671618052494bf3\transformed\jetified-sdk-core-3.6.3\AndroidManifest.xml:22:13-34
+67
+68        <meta-data
+68-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\70a67237086c82f41671618052494bf3\transformed\jetified-sdk-core-3.6.3\AndroidManifest.xml:24:9-26:55
+69            android:name="com.anchorfree.vpnsdk.vpn_config"
+69-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\70a67237086c82f41671618052494bf3\transformed\jetified-sdk-core-3.6.3\AndroidManifest.xml:25:13-60
+70            android:resource="@raw/core_vpn_config" />
+70-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\70a67237086c82f41671618052494bf3\transformed\jetified-sdk-core-3.6.3\AndroidManifest.xml:26:13-52
+71
+72        <provider
+72-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\70a67237086c82f41671618052494bf3\transformed\jetified-sdk-core-3.6.3\AndroidManifest.xml:28:9-32:39
+73            android:name="com.anchorfree.sdk.UnifiedSDKInitProviderMain"
+73-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\70a67237086c82f41671618052494bf3\transformed\jetified-sdk-core-3.6.3\AndroidManifest.xml:29:13-73
+74            android:authorities="com.test.test.anchorfree.sdk.init.provider"
+74-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\70a67237086c82f41671618052494bf3\transformed\jetified-sdk-core-3.6.3\AndroidManifest.xml:30:13-80
+75            android:exported="false"
+75-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\70a67237086c82f41671618052494bf3\transformed\jetified-sdk-core-3.6.3\AndroidManifest.xml:31:13-37
+76            android:initOrder="100" />
+76-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\70a67237086c82f41671618052494bf3\transformed\jetified-sdk-core-3.6.3\AndroidManifest.xml:32:13-36
+77        <provider
+77-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\70a67237086c82f41671618052494bf3\transformed\jetified-sdk-core-3.6.3\AndroidManifest.xml:33:9-38:58
+78            android:name="com.anchorfree.sdk.UnifiedSDKInitProviderVpn"
+78-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\70a67237086c82f41671618052494bf3\transformed\jetified-sdk-core-3.6.3\AndroidManifest.xml:34:13-72
+79            android:authorities="com.test.test.anchorfree.sdk.init.provider.vpn"
+79-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\70a67237086c82f41671618052494bf3\transformed\jetified-sdk-core-3.6.3\AndroidManifest.xml:35:13-84
+80            android:exported="false"
+80-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\70a67237086c82f41671618052494bf3\transformed\jetified-sdk-core-3.6.3\AndroidManifest.xml:36:13-37
+81            android:initOrder="100"
+81-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\70a67237086c82f41671618052494bf3\transformed\jetified-sdk-core-3.6.3\AndroidManifest.xml:37:13-36
+82            android:process="@string/vpn_process_name" />
+82-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-core:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\70a67237086c82f41671618052494bf3\transformed\jetified-sdk-core-3.6.3\AndroidManifest.xml:38:13-55
+83
+84        <service
+84-->[com.github.AnchorFree.hydra-vpn-android:hydratransport:06bcfa7] C:\Users\div79\.gradle\caches\transforms-3\c3f6adcd0a12fd6120cb48b603838e8c\transformed\jetified-hydratransport-06bcfa7\AndroidManifest.xml:10:9-13:19
+85            android:name="com.anchorfree.vpnsdk.transporthydra.proxyservice.HydraProxyService"
+85-->[com.github.AnchorFree.hydra-vpn-android:hydratransport:06bcfa7] C:\Users\div79\.gradle\caches\transforms-3\c3f6adcd0a12fd6120cb48b603838e8c\transformed\jetified-hydratransport-06bcfa7\AndroidManifest.xml:11:13-95
+86            android:permission="android.permission.BIND_VPN_SERVICE" >
+86-->[com.github.AnchorFree.hydra-vpn-android:hydratransport:06bcfa7] C:\Users\div79\.gradle\caches\transforms-3\c3f6adcd0a12fd6120cb48b603838e8c\transformed\jetified-hydratransport-06bcfa7\AndroidManifest.xml:12:13-69
+87        </service>
+88        <service
+88-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-notifications:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\b02ee7238c80f9a5802bf4d01c5618ab\transformed\jetified-sdk-notifications-3.6.3\AndroidManifest.xml:10:9-13:58
+89            android:name="com.anchorfree.sdk.SdkNotificationService"
+89-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-notifications:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\b02ee7238c80f9a5802bf4d01c5618ab\transformed\jetified-sdk-notifications-3.6.3\AndroidManifest.xml:11:13-69
+90            android:exported="false"
+90-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-notifications:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\b02ee7238c80f9a5802bf4d01c5618ab\transformed\jetified-sdk-notifications-3.6.3\AndroidManifest.xml:12:13-37
+91            android:process="@string/vpn_process_name" />
+91-->[com.github.AnchorFreePartner.hydra-sdk-android:sdk-notifications:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\b02ee7238c80f9a5802bf4d01c5618ab\transformed\jetified-sdk-notifications-3.6.3\AndroidManifest.xml:13:13-55
+92
+93        <provider
+93-->[com.github.AnchorFreePartner.hydra-sdk-android:ucr-analytics:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\d5d1e6ccfedd8a720751d0e9697f6d7e\transformed\jetified-ucr-analytics-3.6.3\AndroidManifest.xml:13:9-19:20
+94            android:name="com.anchorfree.ucr.UCRContentProvider"
+94-->[com.github.AnchorFreePartner.hydra-sdk-android:ucr-analytics:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\d5d1e6ccfedd8a720751d0e9697f6d7e\transformed\jetified-ucr-analytics-3.6.3\AndroidManifest.xml:14:13-65
+95            android:authorities="com.test.test.ucr.provider"
+95-->[com.github.AnchorFreePartner.hydra-sdk-android:ucr-analytics:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\d5d1e6ccfedd8a720751d0e9697f6d7e\transformed\jetified-ucr-analytics-3.6.3\AndroidManifest.xml:15:13-64
+96            android:enabled="true"
+96-->[com.github.AnchorFreePartner.hydra-sdk-android:ucr-analytics:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\d5d1e6ccfedd8a720751d0e9697f6d7e\transformed\jetified-ucr-analytics-3.6.3\AndroidManifest.xml:16:13-35
+97            android:exported="false"
+97-->[com.github.AnchorFreePartner.hydra-sdk-android:ucr-analytics:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\d5d1e6ccfedd8a720751d0e9697f6d7e\transformed\jetified-ucr-analytics-3.6.3\AndroidManifest.xml:17:13-37
+98            android:multiprocess="false" >
+98-->[com.github.AnchorFreePartner.hydra-sdk-android:ucr-analytics:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\d5d1e6ccfedd8a720751d0e9697f6d7e\transformed\jetified-ucr-analytics-3.6.3\AndroidManifest.xml:18:13-41
+99        </provider>
+100
+101        <service
+101-->[com.github.AnchorFreePartner.hydra-sdk-android:ucr-analytics:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\d5d1e6ccfedd8a720751d0e9697f6d7e\transformed\jetified-ucr-analytics-3.6.3\AndroidManifest.xml:21:9-25:19
+102            android:name="com.anchorfree.ucr.UCRService"
+102-->[com.github.AnchorFreePartner.hydra-sdk-android:ucr-analytics:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\d5d1e6ccfedd8a720751d0e9697f6d7e\transformed\jetified-ucr-analytics-3.6.3\AndroidManifest.xml:22:13-57
+103            android:enabled="true"
+103-->[com.github.AnchorFreePartner.hydra-sdk-android:ucr-analytics:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\d5d1e6ccfedd8a720751d0e9697f6d7e\transformed\jetified-ucr-analytics-3.6.3\AndroidManifest.xml:23:13-35
+104            android:exported="false" >
+104-->[com.github.AnchorFreePartner.hydra-sdk-android:ucr-analytics:3.6.3] C:\Users\div79\.gradle\caches\transforms-3\d5d1e6ccfedd8a720751d0e9697f6d7e\transformed\jetified-ucr-analytics-3.6.3\AndroidManifest.xml:24:13-37
+105        </service>
+106
+107        <activity
+107-->[com.github.AnchorFree.hydra-vpn-android:corevpn:06bcfa7] C:\Users\div79\.gradle\caches\transforms-3\b10087c1de557cc8f0f066e5b9e23b8d\transformed\jetified-corevpn-06bcfa7\AndroidManifest.xml:14:9-20:75
+108            android:name="com.anchorfree.vpnsdk.vpnservice.StartVPNServiceShadowActivity"
+108-->[com.github.AnchorFree.hydra-vpn-android:corevpn:06bcfa7] C:\Users\div79\.gradle\caches\transforms-3\b10087c1de557cc8f0f066e5b9e23b8d\transformed\jetified-corevpn-06bcfa7\AndroidManifest.xml:15:13-90
+109            android:exported="false"
+109-->[com.github.AnchorFree.hydra-vpn-android:corevpn:06bcfa7] C:\Users\div79\.gradle\caches\transforms-3\b10087c1de557cc8f0f066e5b9e23b8d\transformed\jetified-corevpn-06bcfa7\AndroidManifest.xml:16:13-37
+110            android:label="@string/app_name"
+110-->[com.github.AnchorFree.hydra-vpn-android:corevpn:06bcfa7] C:\Users\div79\.gradle\caches\transforms-3\b10087c1de557cc8f0f066e5b9e23b8d\transformed\jetified-corevpn-06bcfa7\AndroidManifest.xml:17:13-45
+111            android:launchMode="singleTask"
+111-->[com.github.AnchorFree.hydra-vpn-android:corevpn:06bcfa7] C:\Users\div79\.gradle\caches\transforms-3\b10087c1de557cc8f0f066e5b9e23b8d\transformed\jetified-corevpn-06bcfa7\AndroidManifest.xml:18:13-44
+112            android:process="@string/vpn_process_name"
+112-->[com.github.AnchorFree.hydra-vpn-android:corevpn:06bcfa7] C:\Users\div79\.gradle\caches\transforms-3\b10087c1de557cc8f0f066e5b9e23b8d\transformed\jetified-corevpn-06bcfa7\AndroidManifest.xml:19:13-55
+113            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+113-->[com.github.AnchorFree.hydra-vpn-android:corevpn:06bcfa7] C:\Users\div79\.gradle\caches\transforms-3\b10087c1de557cc8f0f066e5b9e23b8d\transformed\jetified-corevpn-06bcfa7\AndroidManifest.xml:20:13-72
+114
+115        <provider
+115-->[com.github.AnchorFree.hydra-vpn-android:corevpn:06bcfa7] C:\Users\div79\.gradle\caches\transforms-3\b10087c1de557cc8f0f066e5b9e23b8d\transformed\jetified-corevpn-06bcfa7\AndroidManifest.xml:22:9-25:40
+116            android:name="com.anchorfree.vpnsdk.vpnservice.config.VpnConfigProvider"
+116-->[com.github.AnchorFree.hydra-vpn-android:corevpn:06bcfa7] C:\Users\div79\.gradle\caches\transforms-3\b10087c1de557cc8f0f066e5b9e23b8d\transformed\jetified-corevpn-06bcfa7\AndroidManifest.xml:23:13-85
+117            android:authorities="com.test.test.vpn_config"
+117-->[com.github.AnchorFree.hydra-vpn-android:corevpn:06bcfa7] C:\Users\div79\.gradle\caches\transforms-3\b10087c1de557cc8f0f066e5b9e23b8d\transformed\jetified-corevpn-06bcfa7\AndroidManifest.xml:24:13-62
+118            android:exported="false" />
+118-->[com.github.AnchorFree.hydra-vpn-android:corevpn:06bcfa7] C:\Users\div79\.gradle\caches\transforms-3\b10087c1de557cc8f0f066e5b9e23b8d\transformed\jetified-corevpn-06bcfa7\AndroidManifest.xml:25:13-37
+119        <provider
+119-->[com.github.AnchorFree.hydra-vpn-android:corevpn:06bcfa7] C:\Users\div79\.gradle\caches\transforms-3\b10087c1de557cc8f0f066e5b9e23b8d\transformed\jetified-corevpn-06bcfa7\AndroidManifest.xml:26:9-29:40
+120            android:name="com.anchorfree.vpnsdk.vpnservice.credentials.CredentialsContentProvider"
+120-->[com.github.AnchorFree.hydra-vpn-android:corevpn:06bcfa7] C:\Users\div79\.gradle\caches\transforms-3\b10087c1de557cc8f0f066e5b9e23b8d\transformed\jetified-corevpn-06bcfa7\AndroidManifest.xml:27:13-99
+121            android:authorities="com.test.test.credentials"
+121-->[com.github.AnchorFree.hydra-vpn-android:corevpn:06bcfa7] C:\Users\div79\.gradle\caches\transforms-3\b10087c1de557cc8f0f066e5b9e23b8d\transformed\jetified-corevpn-06bcfa7\AndroidManifest.xml:28:13-63
+122            android:exported="false" />
+122-->[com.github.AnchorFree.hydra-vpn-android:corevpn:06bcfa7] C:\Users\div79\.gradle\caches\transforms-3\b10087c1de557cc8f0f066e5b9e23b8d\transformed\jetified-corevpn-06bcfa7\AndroidManifest.xml:29:13-37
+123
+124        <service
+124-->[com.github.AnchorFree.hydra-vpn-android:corevpn:06bcfa7] C:\Users\div79\.gradle\caches\transforms-3\b10087c1de557cc8f0f066e5b9e23b8d\transformed\jetified-corevpn-06bcfa7\AndroidManifest.xml:31:9-40:19
+125            android:name="com.anchorfree.vpnsdk.vpnservice.AFVpnService"
+125-->[com.github.AnchorFree.hydra-vpn-android:corevpn:06bcfa7] C:\Users\div79\.gradle\caches\transforms-3\b10087c1de557cc8f0f066e5b9e23b8d\transformed\jetified-corevpn-06bcfa7\AndroidManifest.xml:32:13-73
+126            android:enabled="@bool/vpn_process_enabled"
+126-->[com.github.AnchorFree.hydra-vpn-android:corevpn:06bcfa7] C:\Users\div79\.gradle\caches\transforms-3\b10087c1de557cc8f0f066e5b9e23b8d\transformed\jetified-corevpn-06bcfa7\AndroidManifest.xml:33:13-56
+127            android:exported="false"
+127-->[com.github.AnchorFree.hydra-vpn-android:corevpn:06bcfa7] C:\Users\div79\.gradle\caches\transforms-3\b10087c1de557cc8f0f066e5b9e23b8d\transformed\jetified-corevpn-06bcfa7\AndroidManifest.xml:34:13-37
+128            android:permission="android.permission.BIND_VPN_SERVICE"
+128-->[com.github.AnchorFree.hydra-vpn-android:corevpn:06bcfa7] C:\Users\div79\.gradle\caches\transforms-3\b10087c1de557cc8f0f066e5b9e23b8d\transformed\jetified-corevpn-06bcfa7\AndroidManifest.xml:35:13-69
+129            android:process="@string/vpn_process_name" >
+129-->[com.github.AnchorFree.hydra-vpn-android:corevpn:06bcfa7] C:\Users\div79\.gradle\caches\transforms-3\b10087c1de557cc8f0f066e5b9e23b8d\transformed\jetified-corevpn-06bcfa7\AndroidManifest.xml:36:13-55
+130            <intent-filter>
+130-->[com.github.AnchorFree.hydra-vpn-android:corevpn:06bcfa7] C:\Users\div79\.gradle\caches\transforms-3\b10087c1de557cc8f0f066e5b9e23b8d\transformed\jetified-corevpn-06bcfa7\AndroidManifest.xml:37:13-39:29
+131                <action android:name="android.net.VpnService" />
+131-->[com.github.AnchorFree.hydra-vpn-android:corevpn:06bcfa7] C:\Users\div79\.gradle\caches\transforms-3\b10087c1de557cc8f0f066e5b9e23b8d\transformed\jetified-corevpn-06bcfa7\AndroidManifest.xml:38:17-65
+131-->[com.github.AnchorFree.hydra-vpn-android:corevpn:06bcfa7] C:\Users\div79\.gradle\caches\transforms-3\b10087c1de557cc8f0f066e5b9e23b8d\transformed\jetified-corevpn-06bcfa7\AndroidManifest.xml:38:25-62
+132            </intent-filter>
+133        </service>
+134
+135        <provider
+135-->[androidx.emoji2:emoji2:1.2.0] C:\Users\div79\.gradle\caches\transforms-3\2d733dd054ddb2ffe05517f4022c7e48\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+136            android:name="androidx.startup.InitializationProvider"
+136-->[androidx.emoji2:emoji2:1.2.0] C:\Users\div79\.gradle\caches\transforms-3\2d733dd054ddb2ffe05517f4022c7e48\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+137            android:authorities="com.test.test.androidx-startup"
+137-->[androidx.emoji2:emoji2:1.2.0] C:\Users\div79\.gradle\caches\transforms-3\2d733dd054ddb2ffe05517f4022c7e48\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+138            android:exported="false" >
+138-->[androidx.emoji2:emoji2:1.2.0] C:\Users\div79\.gradle\caches\transforms-3\2d733dd054ddb2ffe05517f4022c7e48\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+139            <meta-data
+139-->[androidx.emoji2:emoji2:1.2.0] C:\Users\div79\.gradle\caches\transforms-3\2d733dd054ddb2ffe05517f4022c7e48\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+140                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+140-->[androidx.emoji2:emoji2:1.2.0] C:\Users\div79\.gradle\caches\transforms-3\2d733dd054ddb2ffe05517f4022c7e48\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+141                android:value="androidx.startup" />
+141-->[androidx.emoji2:emoji2:1.2.0] C:\Users\div79\.gradle\caches\transforms-3\2d733dd054ddb2ffe05517f4022c7e48\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+142            <meta-data
+142-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\div79\.gradle\caches\transforms-3\e3c18c8ade8a19f7c5aa200ca95189f3\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+143                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+143-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\div79\.gradle\caches\transforms-3\e3c18c8ade8a19f7c5aa200ca95189f3\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+144                android:value="androidx.startup" />
+144-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\div79\.gradle\caches\transforms-3\e3c18c8ade8a19f7c5aa200ca95189f3\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+145        </provider>
+146    </application>
+147
+148</manifest>

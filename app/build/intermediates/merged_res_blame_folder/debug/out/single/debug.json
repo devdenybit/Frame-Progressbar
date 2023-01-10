@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.test.test.app-merged_res-39:/layout_activity_splash_screen.xml.flat",
+        "source": "com.test.test.app-main-41:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "com.test.test.app-merged_res-39:/xml_network_security_config.xml.flat",
+        "source": "com.test.test.app-main-41:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "com.test.test.app-merged_res-39:/drawable_ic_appicon.png.flat",
+        "source": "com.test.test.app-main-41:/drawable/ic_appicon.png"
+    }
+]

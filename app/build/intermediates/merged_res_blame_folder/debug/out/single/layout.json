@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "com.test.test.app-mergeDebugResources-38:/layout/activity_splash_screen.xml",
+        "source": "com.test.test.app-main-41:/layout/activity_splash_screen.xml"
+    }
+]

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alreadowned">ARTIGO JÁ DE PROPRIEDADE</string>
+    <string name="besserver">Melhor servidor</string>
+    <string name="billunavaliable">FATURAMENTO INDISPONÍVEL</string>
+    <string name="buy_premium">Comprar Premium</string>
+    <string name="developererrer">ERRO DE DESENVOLVEDOR</string>
+    <string name="do_you_realy_want_to_buy_premium_or_watch_video_to_activate_for_one_time">Você realmente deseja comprar o Premium ou assistir ao vídeo para ativar uma vez?</string>
+    <string name="errorconnecting">Erro ao conectar, verifique se você selecionou um país e deu permissão de VPN</string>
+    <string name="featurenotsupp">RECURSO NÃO SUPORTADO</string>
+    <string name="itemunaval">ARTIGO INDISPONÍVEL</string>
+    <string name="logindone">Login concluído, tente conectar a VPN agora</string>
+    <string name="network_error">Erro de rede…</string>
+    <string name="network_error_message">A Internet não está disponível, reconecte a rede e tente novamente.</string>
+    <string name="ok">OK</string>
+    <string name="pleasewait">"Please wait … "</string>
+    <string name="servicediss">SERVIÇO DESLIGADO</string>
+    <string name="servicetime">TEMPO LIMITE DE SERVIÇO</string>
+    <string name="vpncon">VPN conectado</string>
+    <string name="watchad">Assistir anúncio</string>
+</resources>

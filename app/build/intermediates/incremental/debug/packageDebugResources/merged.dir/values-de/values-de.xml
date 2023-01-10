@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alreadowned">ARTIKEL BEREITS BESITZEN</string>
+    <string name="besserver">Bester Server</string>
+    <string name="billunavaliable">ABRECHNUNG NICHT VERFÜGBAR</string>
+    <string name="buy_premium">Prämie kaufen</string>
+    <string name="developererrer">ENTWICKLERFEHLER</string>
+    <string name="do_you_realy_want_to_buy_premium_or_watch_video_to_activate_for_one_time">Möchten Sie wirklich Premium kaufen oder Video ansehen, um es einmalig zu aktivieren?</string>
+    <string name="errorconnecting">Fehler beim Verbinden, stellen Sie sicher, dass Sie ein Land ausgewählt und eine VPN-Berechtigung erteilt haben</string>
+    <string name="featurenotsupp">FUNKTION NICHT UNTERSTÜTZT</string>
+    <string name="itemunaval">ARTIKEL NICHT VERFÜGBAR</string>
+    <string name="logindone">Anmeldung abgeschlossen, versuchen Sie jetzt, eine VPN-Verbindung herzustellen</string>
+    <string name="network_error">Netzwerkfehler…</string>
+    <string name="network_error_message">Internet ist nicht verfügbar, verbinden Sie sich erneut mit dem Netzwerk und versuchen Sie es erneut.</string>
+    <string name="ok">OK</string>
+    <string name="pleasewait">"Warten Sie mal … "</string>
+    <string name="servicediss">DIENST GETRENNT</string>
+    <string name="servicetime">RUHEZEITEN</string>
+    <string name="vpncon">VPN verbunden</string>
+    <string name="watchad">Anzeige ansehen</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alreadowned">ARTÍCULO YA PROPIO</string>
+    <string name="besserver">mejor servidor</string>
+    <string name="billunavaliable">FACTURACIÓN NO DISPONIBLE</string>
+    <string name="buy_premium">Comprar Premium</string>
+    <string name="developererrer">ERROR DEL DESARROLLADOR</string>
+    <string name="do_you_realy_want_to_buy_premium_or_watch_video_to_activate_for_one_time">¿Realmente desea comprar Premium o ver un video para activarlo por única vez?</string>
+    <string name="errorconnecting">Error de conexión, asegúrese de haber seleccionado un país y dado permiso de VPN</string>
+    <string name="featurenotsupp">CARACTERÍSTICA NO COMPATIBLE</string>
+    <string name="itemunaval">ARTÍCULO NO DISPONIBLE</string>
+    <string name="logindone">Inicio de sesión Listo, intente conectarse VPN ahora</string>
+    <string name="network_error">Error de red…</string>
+    <string name="network_error_message">Internet no está disponible, vuelva a conectar la red y vuelva a intentarlo.</string>
+    <string name="ok">OK</string>
+    <string name="pleasewait">"Espere por favor … "</string>
+    <string name="servicediss">SERVICIO DESCONECTADO</string>
+    <string name="servicetime">TIEMPO DE ESPERA DE SERVICIO</string>
+    <string name="vpncon">VPN conectado</string>
+    <string name="watchad">Ver anuncio</string>
+</resources>

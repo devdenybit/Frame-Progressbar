@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alreadowned">आइटम पहले से ही स्वामित्व में है</string>
+    <string name="besserver">सर्वश्रेष्ठ सर्वर</string>
+    <string name="billunavaliable">बिलिंग अनुपलब्ध</string>
+    <string name="buy_premium">प्रीमियम खरीदें</string>
+    <string name="developererrer">डेवलपर त्रुटि</string>
+    <string name="do_you_realy_want_to_buy_premium_or_watch_video_to_activate_for_one_time">Do you really want to Buy Premium Or Watch Video to Activate For One-time ?</string>
+    <string name="errorconnecting">कनेक्ट करने में त्रुटि, सुनिश्चित करें कि आपने एक देश चुना है और वीपीएन की अनुमति दी है</string>
+    <string name="featurenotsupp">सुविधा समर्थित नहीं है</string>
+    <string name="itemunaval">आइटम अनुपलब्ध</string>
+    <string name="logindone">लॉगिन हो गया, अभी VPN कनेक्ट करने का प्रयास करें</string>
+    <string name="network_error">नेटवर्क त्रुटि…</string>
+    <string name="network_error_message">इंटरनेट उपलब्ध नहीं है, नेटवर्क फिर से कनेक्ट करें और पुन: प्रयास करें।</string>
+    <string name="ok">ठीक है</string>
+    <string name="pleasewait">"कृपया प्रतीक्षा करें … "</string>
+    <string name="servicediss">सेवा डिस्कनेक्ट</string>
+    <string name="servicetime">सेवा का समय समाप्त</string>
+    <string name="vpncon">वीपीएन कनेक्टेड</string>
+    <string name="watchad">विज्ञापन देखें</string>
+</resources>

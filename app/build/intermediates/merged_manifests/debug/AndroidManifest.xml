@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.test.test"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="32" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+
+    <application
+        android:name="com.test.test.MyApplication"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@drawable/ic_appicon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/sdk_captive_portal_network_security"
+        android:roundIcon="@drawable/ic_appicon"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <activity
+            android:name="com.test.test.spl"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.test.test.spl2"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.anchorfree.vpnsdk.vpn_config.openvpn"
+            android:resource="@raw/openvpn_vpn_config" />
+        <meta-data
+            android:name="com.anchorfree.sdk.transports"
+            android:resource="@raw/hydra_transports_config" />
+        <meta-data
+            android:name="com.anchorfree.vpnsdk.vpn_config.hydra"
+            android:resource="@raw/hydra_vpn_config" />
+
+        <provider
+            android:name="com.anchorfree.sdk.HydraTransportInitProvider"
+            android:authorities="com.test.test.sdk.transport.hydra"
+            android:exported="false"
+            android:initOrder="1" />
+        <provider
+            android:name="com.anchorfree.sdk.DBProvider"
+            android:authorities="com.test.test.hydra.sdk.db.provider"
+            android:exported="false"
+            android:initOrder="1" />
+
+        <meta-data
+            android:name="com.anchorfree.vpnsdk.vpn_config"
+            android:resource="@raw/core_vpn_config" />
+
+        <provider
+            android:name="com.anchorfree.sdk.UnifiedSDKInitProviderMain"
+            android:authorities="com.test.test.anchorfree.sdk.init.provider"
+            android:exported="false"
+            android:initOrder="100" />
+        <provider
+            android:name="com.anchorfree.sdk.UnifiedSDKInitProviderVpn"
+            android:authorities="com.test.test.anchorfree.sdk.init.provider.vpn"
+            android:exported="false"
+            android:initOrder="100"
+            android:process="@string/vpn_process_name" />
+
+        <service
+            android:name="com.anchorfree.vpnsdk.transporthydra.proxyservice.HydraProxyService"
+            android:permission="android.permission.BIND_VPN_SERVICE" >
+        </service>
+        <service
+            android:name="com.anchorfree.sdk.SdkNotificationService"
+            android:exported="false"
+            android:process="@string/vpn_process_name" />
+
+        <provider
+            android:name="com.anchorfree.ucr.UCRContentProvider"
+            android:authorities="com.test.test.ucr.provider"
+            android:enabled="true"
+            android:exported="false"
+            android:multiprocess="false" >
+        </provider>
+
+        <service
+            android:name="com.anchorfree.ucr.UCRService"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
+
+        <activity
+            android:name="com.anchorfree.vpnsdk.vpnservice.StartVPNServiceShadowActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:process="@string/vpn_process_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.anchorfree.vpnsdk.vpnservice.config.VpnConfigProvider"
+            android:authorities="com.test.test.vpn_config"
+            android:exported="false" />
+        <provider
+            android:name="com.anchorfree.vpnsdk.vpnservice.credentials.CredentialsContentProvider"
+            android:authorities="com.test.test.credentials"
+            android:exported="false" />
+
+        <service
+            android:name="com.anchorfree.vpnsdk.vpnservice.AFVpnService"
+            android:enabled="@bool/vpn_process_enabled"
+            android:exported="false"
+            android:permission="android.permission.BIND_VPN_SERVICE"
+            android:process="@string/vpn_process_name" >
+            <intent-filter>
+                <action android:name="android.net.VpnService" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.test.test.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+    </application>
+
+</manifest>

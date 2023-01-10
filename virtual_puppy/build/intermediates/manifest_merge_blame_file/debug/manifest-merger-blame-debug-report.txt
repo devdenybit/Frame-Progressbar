@@ -1,0 +1,55 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.virtual.puppy" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="21"
+6-->C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="32" />
+7-->C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\src\main\AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.INTERNET" />
+9-->C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\src\main\AndroidManifest.xml:5:5-67
+9-->C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\src\main\AndroidManifest.xml:5:22-64
+10    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+10-->C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\src\main\AndroidManifest.xml:6:5-79
+10-->C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\src\main\AndroidManifest.xml:6:22-76
+11    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+11-->C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\src\main\AndroidManifest.xml:7:5-79
+11-->C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\src\main\AndroidManifest.xml:7:22-76
+12    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+12-->C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\src\main\AndroidManifest.xml:8:5-76
+12-->C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\src\main\AndroidManifest.xml:8:22-73
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\src\main\AndroidManifest.xml:9:5-76
+13-->C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\src\main\AndroidManifest.xml:9:22-73
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\src\main\AndroidManifest.xml:10:5-68
+14-->C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\src\main\AndroidManifest.xml:10:22-65
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\src\main\AndroidManifest.xml:11:5-77
+15-->C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\src\main\AndroidManifest.xml:11:22-74
+16    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+16-->C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\src\main\AndroidManifest.xml:12:5-81
+16-->C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\src\main\AndroidManifest.xml:12:22-78
+17    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+17-->C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\src\main\AndroidManifest.xml:13:5-95
+17-->C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\src\main\AndroidManifest.xml:13:22-92
+18
+19    <application
+19-->C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\src\main\AndroidManifest.xml:15:5-22:19
+20        android:allowBackup="true"
+20-->C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\src\main\AndroidManifest.xml:16:9-35
+21        android:icon="@drawable/ic_appicon"
+21-->C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\src\main\AndroidManifest.xml:17:9-44
+22        android:label="@string/app_name"
+22-->C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\src\main\AndroidManifest.xml:18:9-41
+23        android:roundIcon="@drawable/ic_appicon"
+23-->C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\src\main\AndroidManifest.xml:19:9-49
+24        android:supportsRtl="true"
+24-->C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\src\main\AndroidManifest.xml:20:9-35
+25        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+25-->C:\Users\div79\Desktop\New Module\VPN_Module\virtual_puppy\src\main\AndroidManifest.xml:21:9-65
+26    </application>
+27
+28</manifest>

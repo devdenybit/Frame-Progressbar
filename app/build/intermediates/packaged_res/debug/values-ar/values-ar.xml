@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alreadowned">العنصر مملوك بالفعل</string>
+    <string name="besserver">أفضل خادم</string>
+    <string name="billunavaliable">الفواتير غير متوفرة</string>
+    <string name="buy_premium">شراء قسط</string>
+    <string name="developererrer">خطأ المطور</string>
+    <string name="do_you_realy_want_to_buy_premium_or_watch_video_to_activate_for_one_time">هل تريد حقًا شراء Premium أو مشاهدة الفيديو للتنشيط لمرة واحدة؟</string>
+    <string name="errorconnecting">خطأ في الاتصال ، تأكد من أنك حددت بلدًا ومنح إذن VPN</string>
+    <string name="featurenotsupp">الميزة غير مدعومة</string>
+    <string name="itemunaval">العنصر غير متوفر</string>
+    <string name="logindone">تم تسجيل الدخول ، حاول توصيل VPN الآن</string>
+    <string name="network_error">خطأ في الشبكة…</string>
+    <string name="network_error_message">الإنترنت غير متاح ، أعد الاتصال بالشبكة وحاول مرة أخرى.</string>
+    <string name="ok">موافق</string>
+    <string name="pleasewait">"أرجو الإنتظار … "</string>
+    <string name="servicediss">الخدمة غير متصلة</string>
+    <string name="servicetime">مهلة الخدمة</string>
+    <string name="vpncon">اتصال VPN</string>
+    <string name="watchad">مشاهدة الإعلان</string>
+</resources>
